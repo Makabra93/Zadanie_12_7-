@@ -1,0 +1,81 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: #1f1d27;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #fffd98;
+}
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.board {
+  text-align: center;
+}
+
+.column-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-flow: wrap;
+}
+.column-container .column {
+  margin: 8px;
+  width: 30%;
+  height: 500px;
+  border: 1px solid #9b6e38;
+  border-radius: 15px 0;
+  overflow: auto;
+}
+.column-container .column-title {
+  font-size: 30px;
+  border: 1px solid #9b6e38;
+  border-bottom: 2px solid #9b6e38;
+  border-radius: 15px 0;
+  background: #9b6e38;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.column-container .card-description {
+  font-size: 16px;
+  margin: 8px;
+}
+.column-container .card-list {
+  min-height: 50px;
+  list-style-type: none;
+  padding: 0;
+}
+.column-container .card {
+  text-align: center;
+  background: #9b6e38;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.create-column, 
+.column-add-card, 
+.btn-delete {
+  text-transform: uppercase;
+  padding: 4px 7px;
+  background: #745226;
+  color: #1f1d27;
+  font-weight: 700;
+  border: 1px solid; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create-column {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+.btn-delete {
+  margin-right: 5px;
+  font-weight: bold;
+}
